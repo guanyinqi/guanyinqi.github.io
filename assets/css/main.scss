@@ -1,43 +1,37 @@
----
----
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
 
-@import
-    "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
 
-    "include/mixins",
-    "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+.masthead {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
 
-    "layout/forms",
+.page__title {
+  font-weight: 700;
+  color: #1a1a1a;
+}
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+.archive__item-title {
+  font-size: 1.05em;
+  line-height: 1.6;
+}
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+
+.giscus {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
