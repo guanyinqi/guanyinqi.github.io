@@ -1,36 +1,16 @@
 ---
-layout: archive
-title: "Publications"
+title: "预印本"
 permalink: /publications/
 author_profile: true
 ---
+## 动态认知学系列预印本
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+1. **管胤祺** (2026). 动态认知学与原本：一个消解意识困难问题的过程本体论公理体系. [10.5281/zenodo.20283476](https://doi.org/10.5281/zenodo.20283476)
 
-{% include base_path %}
+2. **管胤祺** (2026). 动态认知学：从过程本体论到态演算的形式系统. [10.5281/zenodo.20283631](https://doi.org/10.5281/zenodo.20283631)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+3. **管胤祺** (2026). 动态认知学：公理体系的形式化与态演算数学基础. [10.5281/zenodo.20310110](https://doi.org/10.5281/zenodo.20310110)
 
+4. **管胤祺** (2026). 态演算的物理推导：从过程本体论到物理学定律的重构. [10.5281/zenodo.20310197](https://doi.org/10.5281/zenodo.20310197)
 
-
+5. **管胤祺** (2026). 态演算的工程化参数推导与实验验证方案. [10.5281/zenodo.20310285](https://doi.org/10.5281/zenodo.20310285)
