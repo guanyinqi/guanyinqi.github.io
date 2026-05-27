@@ -34,9 +34,5 @@ author_profile: true
 📧 **邮箱**：[xingyuguanyinqi@qq.com](mailto:xingyuguanyinqi@qq.com)  
 🔗 **GitHub**：[guanyinqi](https://github.com/guanyinqi)  
 📄 **Google Scholar**：[我的学术主页](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)  
-📱 **抖音**：[我的抖音主页](https://www.douyin.com/user/你的抖音ID)  
-（请将 `你的抖音ID` 替换为你的实际抖音 ID）
-
----
-
+📱 **抖音**：[我的抖音主页](https://www.douyin.com/user/44983076176)  
 *欢迎学术交流与合作。*
