@@ -1,16 +1,13 @@
-# 主导航
 main:
   - title: "关于"
     url: /
   - title: "预印本"
     url: /publications/
-  - title: "简历"
-    url: /cv/
-  - title: "教学"
-    url: /teaching/
-  - title: "演讲"
-    url: /talks/
-  - title: "博客"
-    url: /year-archive/
-  - title: "指南"
-    url: /guide/
+  # - title: "简历"
+  #   url: /cv/
+  # - title: "教学"
+  #   url: /teaching/
+  # - title: "演讲"
+  #   url: /talks/
+  # - title: "博客"
+  #   url: /year-archive/
