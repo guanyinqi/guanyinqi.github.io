@@ -6,7 +6,7 @@ name                     : "管胤祺"
 description              : "世源学创立者。动态认知学与态演算。独立研究者。"
 url: https://guanyinqi.netlify.app
 remote_theme: "mmistakes/minimal-mistakes"
-repository               : "https://guanyinqi.netlify.app"
+repository: "guanyinqi/guanyinqi.github.io"
 
 # ==================== 作者信息（侧边栏） ====================
 author:
