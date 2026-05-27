@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
+  gem 'jekyll-remote-theme'   # 添加这一行
 end
 
 gem 'github-pages'
