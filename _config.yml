@@ -4,8 +4,8 @@ site_theme               : "mint"        # 可选: default, air, sunrise, mint, 
 title                    : "管胤祺 · 世源学与动态认知学"
 name                     : "管胤祺"
 description              : "世源学创立者。动态认知学与态演算。独立研究者。"
-url                      : https://guanyinqi.github.io
-repository               : "guanyinqi/guanyinqi.github.io"
+url: https://guanyinqi.netlify.app
+repository               : "https://guanyinqi.netlify.app"
 
 # ==================== 作者信息（侧边栏） ====================
 author:
